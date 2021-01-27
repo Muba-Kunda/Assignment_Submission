@@ -1,12 +1,12 @@
 // Question 1
 // What will the code below output to the console and why ?
 
-console.log(1 + "2" + "2");
-console.log(1 + +"2" + "2");
-console.log(1 + -"1" + "2");
-console.log(+"1" + "1" + "2");
-console.log("A" - "B" + "2");
-console.log("A" - "B" + 2);
+console.log(1 + "2" + "2");         //output : 122
+console.log(1 + +"2" + "2");        //output : invalid left hand side expression in postfix operation
+console.log(1 + -"1" + "2");        //output : 02
+console.log(+"1" + "1" + "2");      //output : 112
+console.log("A" - "B" + "2");       //output : NaN2
+console.log("A" - "B" + 2);         //output : NaN
 
 
 // Question 2
